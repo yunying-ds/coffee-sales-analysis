@@ -3,11 +3,13 @@
 This project presents an end-to-end data analysis of a fictional coffee retail chain, focusing on regional performance, product mix, and business insights. Built using Python and Jupyter Notebook, it demonstrates exploratory data analysis (EDA), basic data visualization, and reporting.
 
 ## 📁 Project Structure
+
+```
 coffee-chain-sales-analysis/
-│
-├── data/                   # Raw data files (Coffee Shop Sales.xlsx)
-├── notebooks/              # Jupyter Notebooks for analysis
-└──README.md               # Project overview
+├── data/          # Raw data files (e.g., Coffee Shop Sales.xlsx)
+├── notebooks/     # Jupyter Notebooks for analysis
+└── README.md      # Project overview
+```
 
 ## 🔍 Objective
 
