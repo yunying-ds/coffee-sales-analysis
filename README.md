@@ -1,50 +1,80 @@
 # Coffee Chain Sales Analysis ☕📊
 
-This project presents an end-to-end data analysis of a fictional coffee retail chain, focusing on regional performance, product mix, and business insights. Built using Python and Jupyter Notebook, it demonstrates exploratory data analysis (EDA), basic data visualization, and reporting.
+This project presents an end-to-end exploratory data analysis (EDA) of a coffee retail chain sales dataset.
+The analysis focuses on sales patterns across time, stores, and product hierarchies, with particular attention to pricing behavior and seasonality.
 
 ## 📁 Project Structure
 
 ```
 coffee-chain-sales-analysis/
-├── data/          # Raw data files (e.g., Coffee Shop Sales.xlsx)
-├── notebooks/     # Jupyter Notebooks for analysis
-└── README.md      # Project overview
+├── data/              # Raw data files
+├── notebooks/
+│   └── exploratory_analysis.ipynb
+└── README.md
 ```
 
 ## 🔍 Objective
 
-- Analyze sales performance across regions and product types
-- Identify key revenue drivers and underperforming segments
-- Create visual dashboards to communicate business insights
+- Understand overall sales behavior across time, stores, and products
+- Identify key revenue drivers at category and product levels
+- Explore pricing structure and anomalies in transaction data
+- Examine potential seasonal patterns in beverage sales
 
 ## 🛠 Tools & Technologies
 
-- Python (pandas, matplotlib, seaborn)
-- Jupyter Notebook (via VS Code)
-- Tableau Public (optional, for dashboards)
-- Git / GitHub for version control and portfolio
+- Python: pandas, numpy
+- Visualization: matplotlib, seaborn, plotly
+- Environment: Jupyter Notebook (VS Code)
+- Version Control: Git/GitHub
 
-## 🧪 Key Questions Explored
+## 🧪 Key Analytical Questions
 
-- Which product types contribute most to revenue?
-- How does performance vary by region or store?
-- Are there any seasonal trends in sales?
+The analysis is structured around the following questions:
+1.	When do sales peak during the day?
+Hourly sales patterns and peak transaction windows.
+2.	Which stores perform best?
+Revenue and volume comparison across store locations.
+3.	Which product categories and types drive revenue?
+Hierarchical analysis from category → product type → individual items.
+4.	What are the best-selling products?
+Identification of top products by revenue and quantity sold.
+5.	How does price relate to quantity sold?
+Exploration of the relationship between unit price and sales volume.
+6.	Are there seasonal trends in monthly sales?
+Monthly aggregation to detect seasonality, especially for hot beverages.
 
-## 📊 Sample Insights (to be updated)
+## 🧹 Data Preparation Highlights
 
-> 
+Key data engineering steps include:
+- Parsing and standardizing transaction timestamps
+- Deriving time-based features (hour, date, month)
+- Cleaning numeric fields such as unit price and quantity
+- Constructing revenue metrics from transactional data
 
-(Insert charts/screenshots or links to dashboards)
+## 💡 Key Findings (Summary)
+- Sales show clear time-of-day patterns, with identifiable peak hours.
+- Revenue distribution varies significantly across stores.
+- A small number of product categories account for a large share of total revenue.
+- Individual products can appear under multiple price points, indicating pricing complexity.
+- The correlation between unit price and quantity sold is weak, suggesting demand is not strongly price-driven.
+- Certain beverage categories exhibit early signs of seasonality at the monthly level.
 
-## 📌 Status
+Detailed figures and supporting visualizations are available in the notebook.
 
-- [x] Data loaded & cleaned
-- [ ] Exploratory data analysis (EDA)
-- [ ] Visualizations complete
-- [ ] Final report writing
-- [ ] Portfolio polishing
+## 📌 Project Status
+
+- [x] Data cleaning & feature engineering
+- [x] Exploratory data analysis (EDA)
+- [x] Insight generation
+- [ ] Report formating
+
+## 🚀 Possible Extensions
+- Interactive dashboard (Tableau / Power BI)
+- Deeper pricing strategy analysis
+- Store-level performance benchmarking
+- Demand forecasting models
 
 ## ✍️ Author
 
 Yunying Liang  
-[LinkedIn](https://www.linkedin.com/in/yunying-liang//) • [Portfolio]
+[LinkedIn](https://www.linkedin.com/in/yunying-liang//) • Portfolio (in progress)
