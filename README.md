@@ -76,7 +76,7 @@ Detailed figures and supporting visualizations are available in the notebook.
 - [x] Data cleaning & feature engineering
 - [x] Exploratory data analysis (EDA)
 - [x] Insight generation
-- [ ] Report formating
+- [x] Report formating
 
 ## 🚀 Possible Extensions
 - Interactive dashboard (Tableau / Power BI)
