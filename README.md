@@ -26,6 +26,10 @@ coffee-chain-sales-analysis/
 - Explore pricing structure and anomalies in transaction data
 - Examine potential seasonal patterns in beverage sales
 
+📄 **Project Report**  
+A concise summary of key findings is available in  
+`Coffee_Retail_Analysis.pdf`.
+
 ## 🛠 Tools & Technologies
 
 - Python: pandas, numpy
