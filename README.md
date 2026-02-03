@@ -13,6 +13,7 @@ coffee-chain-sales-analysis/
 ├── notebooks/
 │   ├── 01_exploratory_analysis.ipynb
 │   └── 02_structured_nb.ipynb
+├── Coffee_Retail_Analysis.pdf
 ├── .gitignore
 ├── LICENSE
 └── README.md
