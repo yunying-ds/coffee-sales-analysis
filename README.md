@@ -7,9 +7,14 @@ The analysis focuses on sales patterns across time, stores, and product hierarch
 
 ```
 coffee-chain-sales-analysis/
-├── data/              # Raw data files
+├── data/
+│   ├── Coffee Shop Sales.csv
+│   └── Coffee Shop Sales.xlsx
 ├── notebooks/
-│   └── exploratory_analysis.ipynb
+│   ├── 01_exploratory_analysis.ipynb
+│   └── 02_structured_nb.ipynb
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
